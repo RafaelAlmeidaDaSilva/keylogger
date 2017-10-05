@@ -1,0 +1,8 @@
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\bin\Debug\NDde.xml
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\bin\Debug\NDde.dll
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\bin\Debug\NDde.pdb
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\obj\Debug\NDde.csprojResolveAssemblyReference.cache
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\obj\Debug\NDde.Properties.Resources.resources
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\obj\Debug\NDde.csproj.GenerateResource.Cache
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\obj\Debug\NDde.dll
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\NDde\Source\NDde\obj\Debug\NDde.pdb

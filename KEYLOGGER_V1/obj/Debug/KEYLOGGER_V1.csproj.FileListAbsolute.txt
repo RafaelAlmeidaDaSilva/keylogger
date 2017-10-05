@@ -1,0 +1,27 @@
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csprojResolveAssemblyReference.cache
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.Properties.Resources.resources
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csproj.GenerateResource.Cache
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.FrmHome.resources
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.exe.config
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.exe
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.pdb
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\ORionteste.exe
+C:\Users\Orion\Documents\Visual Studio 2013\Projects\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\ORionteste.pdb
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.exe.config
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\ORionteste.exe
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\ORionteste.pdb
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.exe
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.pdb
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csprojResolveAssemblyReference.cache
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.FrmHome.resources
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.Properties.Resources.resources
+I:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csproj.GenerateResource.Cache
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.exe.config
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\ORionteste.exe
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\ORionteste.pdb
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.exe
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\bin\Debug\ORionteste.pdb
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csprojResolveAssemblyReference.cache
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.FrmHome.resources
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.Properties.Resources.resources
+J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csproj.GenerateResource.Cache
