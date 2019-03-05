@@ -25,3 +25,13 @@ J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csproj
 J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.FrmHome.resources
 J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.Properties.Resources.resources
 J:\_PESSOAL\_PROJETOS\C#\KEYLOGGER_V1\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csproj.GenerateResource.Cache
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\bin\Debug\ORionteste.exe.config
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\bin\Debug\ORionteste.exe
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\bin\Debug\ORionteste.pdb
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csprojAssemblyReference.cache
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.FrmHome.resources
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.Properties.Resources.resources
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csproj.GenerateResource.cache
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\obj\Debug\KEYLOGGER_V1.csproj.CoreCompileInputs.cache
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\obj\Debug\ORionteste.exe
+C:\Users\Rafael A. da Silva\Desktop\projetinhos\Keylogger\KEYLOGGER_V1\obj\Debug\ORionteste.pdb
